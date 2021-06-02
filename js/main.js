@@ -5,9 +5,9 @@ async function getApiResponse() {
     let posts = document.querySelector('.wrapper__content')
     for (let key in content) {
         posts.innerHTML += ` 
-<ul class="list-group">
-            <li class="list-group-item">Title: ${content[key].title} </br> Content: ${content[key].body}</li>
-</ul>`
+        <ul class="list-group">
+                    <li class="list-group-item">Title: ${content[key].title} </br> Content: ${content[key].body}</li>
+        </ul>`
     }
 }
 
